@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "0fd2b271e1651c135390dbdd9a7f69ef",
@@ -1866,18 +1866,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slava-basko/identity-server-sdk.git",
-                "reference": "3e161bb2ef9eb13e1d7d2a94fd6e72e674334fb7"
+                "reference": "daf7079a1e6db4506cf5bd55c9813324e4eafaae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slava-basko/identity-server-sdk/zipball/3e161bb2ef9eb13e1d7d2a94fd6e72e674334fb7",
-                "reference": "3e161bb2ef9eb13e1d7d2a94fd6e72e674334fb7",
+                "url": "https://api.github.com/repos/slava-basko/identity-server-sdk/zipball/daf7079a1e6db4506cf5bd55c9813324e4eafaae",
+                "reference": "daf7079a1e6db4506cf5bd55c9813324e4eafaae",
                 "shasum": ""
             },
             "require": {
-                "ocramius/proxy-manager": "2.2.2",
+                "ocramius/proxy-manager": "^1.0",
                 "php": ">=5.5",
-                "symfony/expression-language": "v4.3.1",
+                "symfony/expression-language": "^3.4",
                 "zendframework/zend-json-server": "3.1.0"
             },
             "type": "library",
